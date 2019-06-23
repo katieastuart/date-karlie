@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans|Merriweather|Montserrat&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cabin', sans-serif; */
+
+.profile-img {
+    max-width: 350px;
+    height: auto;
+    padding-top: 25px;
+}
+
+.pro-img, .con-img, .qual-img {
+    max-width: 400px;
+    height: auto;
+}
+
+h1, h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #c9c8d9;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 20px;
+    text-shadow: 2px 2px #585757;
+}
+
+h4 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    color: #c9c8d9;
+    font-size: 24px;
+}
+
+a {
+    color: #c9c8d9;
+}
+
+body {
+    background-image: url("../images/sharon-mccutcheon-535933-unsplash.jpg");
+    background-repeat: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header, .card {
+    background: none;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.hero, .qualifications, .pros, .cons, .footer {
+    margin-bottom: 75px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .qual-img {
+        padding-top: 50px;
+        max-width: 450px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .pro-img, .con-img, .qual-img, .profile-img, .chart {
+        max-width: 300px;
+    }
+
+    .profile-img {
+        padding-top: 0px;
+    }
+  }
